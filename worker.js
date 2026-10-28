@@ -6,9 +6,10 @@ export default {
       return Response.redirect(url, 308);
     }
 
-    const pages = { '/': '/index.html', '/privacy': '/privacy.html', '/terms': '/terms.html' };
+    const pages = { '/privacy': '/privacy.html', '/terms': '/terms.html' };
     const path = pages[url.pathname];
     if (path) url.pathname = path;
     return env.ASSETS.fetch(new Request(url, request));
   },
 };
+
