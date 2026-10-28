@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect x="24" y="24" width="464" height="464" rx="92" fill="#103B68"/>
+<!-- cyan page accents -->
+<path d="M112 202 L112 347 Q177 336 246 394 L246 250 Q180 197 112 202Z" fill="#27B6E8"/>
+<path d="M400 202 L400 347 Q335 336 266 394 L266 250 Q332 197 400 202Z" fill="#27B6E8"/>
+<!-- open white pages -->
+<path d="M91 192 Q166 185 245 244 L245 376 Q167 319 91 333Z" fill="#FFFFFF"/>
+<path d="M421 192 Q346 185 267 244 L267 376 Q345 319 421 333Z" fill="#FFFFFF"/>
+<path d="M91 192 Q168 185 245 244 L245 376 Q167 319 91 333Z" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round"/>
+<path d="M421 192 Q344 185 267 244 L267 376 Q345 319 421 333Z" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round"/>
+<path d="M256 245 L256 390" stroke="#103B68" stroke-width="9" stroke-linecap="round"/>
+<!-- thumbs-up silhouette -->
+<path d="M208 289 L208 331 Q208 344 221 344 L282 344 Q294 344 299 331 L313 290 Q316 278 304 274 L278 274 L282 238 Q283 220 268 216 Q259 214 254 226 L238 258 Q230 274 208 279Z" fill="#103B68"/>
+<path d="M194 279 L211 279 L211 344 L194 344 Q185 344 185 335 L185 288 Q185 279 194 279Z" fill="#103B68"/>
+<!-- small cyan bookmark at the base -->
+<path d="M238 376 L274 376 L274 418 L256 405 L238 418Z" fill="#27B6E8"/>
+</svg>

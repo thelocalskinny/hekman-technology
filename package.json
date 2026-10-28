@@ -1,0 +1,12 @@
+{
+  "name": "hekman-technology",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --assets ./public --port 8788",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.152.0"
+  }
+}
