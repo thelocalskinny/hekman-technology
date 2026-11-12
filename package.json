@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev --assets ./public --port 8788",
+    "dev": "wrangler dev --assets ./public --port 8788 --var LOCAL_DEV:true",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
