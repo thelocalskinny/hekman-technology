@@ -3,34 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f7f9fc" />
+    <meta name="theme-color" content="#f6f4ef" />
     <meta name="description" content="Hekman Technology Consulting builds its own software applications and helps organizations plan, develop, and improve their technology." />
     <title>Hekman Technology Consulting</title>
     <link rel="canonical" href="https://hekmantechnology.com/" />
     <link rel="icon" type="image/png" href="/company-mark.png" />
+    <link rel="preload" href="/fonts/source-sans-3-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/company.css" />
   </head>
-  <body>
+  <body id="top">
     <header class="topbar">
-      <a class="brand" href="/" aria-label="Hekman Technology Consulting home">
-        <img class="brand-mark" src="/company-mark.png" alt="" />
-        <span>Hekman Technology</span>
-      </a>
-      <nav aria-label="Main navigation">
-        <a href="#work">Our work</a>
-        <a href="#consulting">Consulting</a>
-        <a class="nav-contact" href="mailto:dev@hekmantechnology.com">Contact</a>
-      </nav>
+      <div class="topbar-inner">
+        <a class="brand" href="#top" aria-label="Hekman Technology Consulting home">
+          <img class="brand-mark" src="/company-mark.png" alt="" />
+          <span class="brand-rule" aria-hidden="true"></span>
+          <span class="brand-name">Hekman Technology</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a class="nav-link" href="#approach">How we work</a>
+          <a class="nav-link" href="#work">Our work</a>
+          <a class="nav-link" href="#engage">Engage</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <a class="button primary small" href="#contact">Talk about a project</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero wrap">
         <div class="hero-copy-block">
-          <p class="eyebrow">Independent software development · Consulting</p>
-          <h1>We build useful software.</h1>
-          <p class="hero-copy">Hekman Technology Consulting is a development group creating our own applications and helping people turn good ideas into dependable software.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="mailto:dev@hekmantechnology.com?subject=Consulting%20inquiry">Talk about a project <span aria-hidden="true">↗</span></a>
+          <p class="eyebrow ruled">Independent software development · Consulting</p>
+          <h1>Useful Software.<br /><span class="accent">Built</span> to Fit.</h1>
+          <p class="lede">Hekman Technology Consulting is a development group creating our own applications and helping people turn good ideas into dependable software.</p>
+          <div class="actions">
+            <a class="button primary" href="#work">See what we’ve built</a>
+            <a class="button outline" href="#engage">How we engage</a>
           </div>
         </div>
         <figure class="hero-photo">
@@ -38,64 +45,192 @@
         </figure>
       </section>
 
-      <section class="work-section" id="work">
-        <article class="app-card">
-          <a class="app-image" href="https://bookplease.hekmantechnology.com/" aria-label="Open Book Please">
-            <img src="/images/hero-library.png" alt="Book Please library showing a reader’s books and reading progress" />
-          </a>
-          <div class="app-copy">
-            <div class="app-title-row">
-              <img class="app-icon" src="/bookplease-icon.svg" alt="" />
-              <div><p class="eyebrow">Our first application</p><h3>Book Please</h3></div>
-            </div>
-            <h2 class="second-brain-title">Your Ultimate Reading Second Brain</h2>
-            <p>Keep your books, reading, listening, notes, and history connected in one personal library.</p>
-            <a class="text-link" href="https://bookplease.hekmantechnology.com/">Visit Book Please <span aria-hidden="true">↗</span></a>
+      <section class="band dark" id="help">
+        <div class="wrap">
+          <p class="eyebrow ruled">Where we help</p>
+          <h2>Good Ideas Deserve Dependable Software</h2>
+          <p class="lede narrow">Most technology problems start as ordinary business questions. These are the four we’re asked about most.</p>
+          <div class="pillars">
+            <article><span class="pillar-bar" aria-hidden="true"></span><h3>Clarify the Idea</h3><p>You know what you need but not yet what to build. We help turn a product idea into something specific enough to act on.</p></article>
+            <article><span class="pillar-bar" aria-hidden="true"></span><h3>Plan the Project</h3><p>Before the money gets spent, we work out what comes first, what can wait, and what it will really take.</p></article>
+            <article><span class="pillar-bar" aria-hidden="true"></span><h3>Improve What You Have</h3><p>An application that already runs can usually run better. We find what’s holding it back and fix that first.</p></article>
+            <article><span class="pillar-bar hot" aria-hidden="true"></span><h3>Make It Easy to Maintain</h3><p>Software gets used for years. We make it simpler to understand, change, and look after.</p></article>
           </div>
-        </article>
-        <div class="feature-grid" aria-label="Book Please features">
-          <article class="feature-card"><span class="feature-index">01</span><h3>Read and listen in one place</h3><p>Use built-in EPUB and audiobook controls. Listening and reading progress stays in step with manual updates, book profiles, and reading history.</p></article>
-          <article class="feature-card"><span class="feature-index">02</span><h3>Add a whole shelf at once</h3><p>Take a photo of a stack or shelf, or paste a book-list link. Review the matches and choose where each book goes in your library.</p></article>
-          <article class="feature-card"><span class="feature-index">03</span><h3>Remember the story so far</h3><p>With an EPUB attached, get a searchable AI guide to characters and places that grows as you read, for quick reminders without spoilers.</p></article>
-          <article class="feature-card"><span class="feature-index">04</span><h3>Keep notes that mean something</h3><p>Save a note on a specific book and tag it—for example, “My sister recommended this” tagged “friend referral.” <em>Fun fact: my sister suggested this feature.</em></p></article>
-          <article class="feature-card"><span class="feature-index">05</span><h3>Share a profile on your terms</h3><p>Show detailed stats, custom lists, reading history, and automatic Books of the Month. Turn any profile section off whenever you like.</p></article>
-          <article class="feature-card"><span class="feature-index">06</span><h3>Your library stays yours</h3><p>Your book library lives in your own Google Drive. Connect Claude or ChatGPT to work with your reading data on your terms.</p></article>
-          <article class="feature-card"><span class="feature-index">07</span><h3>Choose what to read next</h3><p>Set a priority for books on your Want to Read shelf and bring your most tempting picks to the top.</p></article>
-          <article class="feature-card"><span class="feature-index">08</span><h3>Find books your way</h3><p>Combine detailed filters for status, tags, moods, formats, ratings, dates, reviews, and more.</p></article>
-          <article class="feature-card"><span class="feature-index">09</span><h3>Make the app yours</h3><p>Personal settings give you control over the look and behavior of Book Please and its many features.</p></article>
-          <article class="feature-card"><span class="feature-index">10</span><h3>Keep big results manageable</h3><p>Expand the search results you want to explore and tuck the rest away.</p></article>
-          <article class="feature-card"><span class="feature-index">11</span><h3>All the tracker essentials</h3><p>Set goals, take on challenges, explore stats and reading history, scan a book’s ISBN barcode, and follow friends.</p></article>
         </div>
       </section>
 
-      <section class="consulting-section" id="consulting">
-        <div>
-          <p class="eyebrow">Consulting</p>
-          <h2>Practical help for your next technology decision.</h2>
-        </div>
-        <div class="consulting-copy">
-          <p>We work with organizations to clarify product ideas, plan software projects, improve existing applications, and make technology easier to maintain.</p>
-          <a class="button dark" href="mailto:dev@hekmantechnology.com?subject=Consulting%20inquiry">Tell us what you’re working on <span aria-hidden="true">↗</span></a>
+      <section class="band" id="approach">
+        <div class="wrap">
+          <p class="eyebrow ruled">Our approach</p>
+          <h2>Practical Help. Plain Answers.</h2>
+          <p class="lede narrow">We make software for ourselves as well as for others, and it shows in how we work.</p>
+          <ol class="steps">
+            <li><span class="step-index">01</span><div><h3>Start With the Real Problem</h3><p>Before anyone talks about features, we want to understand the work itself: who does it, where it gets stuck, and what better would look like.</p></div></li>
+            <li><span class="step-index">02</span><div><h3>We Live With Our Own Decisions</h3><p>We build and run our own applications, so we know what a shortcut costs a year later. We give advice we’d be willing to take ourselves.</p></div></li>
+            <li><span class="step-index">03</span><div><h3>Leave It Easier Than We Found It</h3><p>Good technology shouldn’t need us around forever. The goal is something dependable that’s easy to maintain and easy to explain.</p></div></li>
+          </ol>
         </div>
       </section>
-      <section class="contact-strip" id="contact">
-        <p>Have a question or a project in mind?</p>
-        <a href="mailto:dev@hekmantechnology.com">dev@hekmantechnology.com</a>
+
+      <section class="band" id="work">
+        <div class="wrap">
+          <p class="eyebrow ruled">Proof</p>
+          <h2>See What We’ve Built</h2>
+          <p class="lede narrow">Our first application, designed, built, and run by Hekman Technology.</p>
+
+          <article class="case">
+            <a class="case-image" href="https://bookplease.hekmantechnology.com/" aria-label="Open Book Please">
+              <img src="/images/hero-library.png" alt="Book Please library showing a reader’s books and reading progress" />
+            </a>
+            <div class="case-copy">
+              <div class="case-title">
+                <img class="app-icon" src="/bookplease-icon.svg" alt="" />
+                <p class="eyebrow">Book Please · Personal reading library</p>
+              </div>
+              <h3>From Scattered Apps to a Reading Second Brain</h3>
+              <div class="before-after">
+                <div>
+                  <p class="tag">Before</p>
+                  <p>One app to log books, another to read them, another to listen, and notes that lose their connection to the book they were about.</p>
+                </div>
+                <div>
+                  <p class="tag hot">After</p>
+                  <p>Books, reading, listening, notes, and history connected in one personal library, with EPUB and audiobook controls built in.</p>
+                </div>
+              </div>
+              <p class="pull">Your ultimate reading second brain.</p>
+              <a class="button outline" href="https://bookplease.hekmantechnology.com/">Visit Book Please <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <p class="eyebrow inside-label">What’s inside</p>
+          <div class="feature-grid" aria-label="Book Please features">
+            <article><span>01</span><h3>Read and listen in one place</h3><p>Use built-in EPUB and audiobook controls. Listening and reading progress stays in step with manual updates, book profiles, and reading history.</p></article>
+            <article><span>02</span><h3>Add a whole shelf at once</h3><p>Take a photo of a stack or shelf, or paste a book-list link. Review the matches and choose where each book goes in your library.</p></article>
+            <article><span>03</span><h3>Remember the story so far</h3><p>With an EPUB attached, get a searchable AI guide to characters and places that grows as you read, for quick reminders without spoilers.</p></article>
+            <article><span>04</span><h3>Keep notes that mean something</h3><p>Save a note on a specific book and tag it—for example, “My sister recommended this” tagged “friend referral.” <em>Fun fact: my sister suggested this feature.</em></p></article>
+            <article><span>05</span><h3>Share a profile on your terms</h3><p>Show detailed stats, custom lists, reading history, and automatic Books of the Month. Turn any profile section off whenever you like.</p></article>
+            <article><span>06</span><h3>Your library stays yours</h3><p>Your book library lives in your own Google Drive. Connect Claude or ChatGPT to work with your reading data on your terms.</p></article>
+            <article><span>07</span><h3>Choose what to read next</h3><p>Set a priority for books on your Want to Read shelf and bring your most tempting picks to the top.</p></article>
+            <article><span>08</span><h3>Find books your way</h3><p>Combine detailed filters for status, tags, moods, formats, ratings, dates, reviews, and more.</p></article>
+            <article><span>09</span><h3>Make the app yours</h3><p>Personal settings give you control over the look and behavior of Book Please and its many features.</p></article>
+            <article><span>10</span><h3>Keep big results manageable</h3><p>Expand the search results you want to explore and tuck the rest away.</p></article>
+            <article><span>11</span><h3>All the tracker essentials</h3><p>Set goals, take on challenges, explore stats and reading history, scan a book’s ISBN barcode, and follow friends.</p></article>
+            <a class="feature-cta" href="https://bookplease.hekmantechnology.com/"><strong>See it for yourself</strong><span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="band dark" id="belief">
+        <div class="wrap">
+          <p class="eyebrow ruled">What we believe</p>
+          <h2>What’s Yours Should Stay Yours.</h2>
+          <div class="contrast">
+            <div>
+              <p class="tag">The usual app</p>
+              <p>Your information sits on someone else’s servers, in someone else’s format, under someone else’s rules. Leaving means starting over.</p>
+            </div>
+            <div class="contrast-hot">
+              <p class="tag hot">How Book Please does it</p>
+              <p>Your library lives in your own Google Drive. Connect Claude or ChatGPT to work with your reading data on your terms, and turn off any profile section whenever you like.</p>
+            </div>
+          </div>
+          <p class="contrast-close">A small design decision that says a lot about how we build.</p>
+        </div>
+      </section>
+
+      <section class="band" id="who">
+        <div class="wrap who">
+          <div>
+            <p class="eyebrow ruled">Who you’re working with</p>
+            <h2>A Small Shop That Makes Its Own Products.</h2>
+            <p class="lede">Hekman Technology Consulting LLC is an independent development group. When you get in touch, you’re talking to the people who do the work.</p>
+          </div>
+          <article class="person placeholder" data-note="Placeholder: add your bio">
+            <div class="person-photo"><img src="/company-mark.png" alt="" /></div>
+            <h3>[Your name]</h3>
+            <p class="tag">[Your title]</p>
+            <p>[Two or three sentences on your background: what you’ve built, where you’ve worked, and why you started Hekman Technology.]</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="band" id="engage">
+        <div class="wrap">
+          <p class="eyebrow ruled">How we engage</p>
+          <h2>Two Ways to Work With Us</h2>
+          <div class="plans">
+            <article class="plan placeholder" data-note="Placeholder: confirm this offer">
+              <h3>Technology Consulting</h3>
+              <p class="plan-sub">Practical help for your next technology decision.</p>
+              <ul>
+                <li>Clarify a product idea</li>
+                <li>Plan a software project</li>
+                <li>Review an existing application</li>
+                <li>Make your technology easier to maintain</li>
+              </ul>
+              <a class="button primary" href="mailto:dev@hekmantechnology.com?subject=Consulting%20inquiry">Let’s talk</a>
+            </article>
+            <article class="plan placeholder" data-note="Placeholder: confirm this offer">
+              <h3>Software Development</h3>
+              <p class="plan-sub">A good idea, turned into dependable software.</p>
+              <ul>
+                <li>New applications, planned and built</li>
+                <li>Improvements to software you already run</li>
+                <li>Plain progress updates along the way</li>
+              </ul>
+              <a class="button outline" href="mailto:dev@hekmantechnology.com?subject=Software%20project%20inquiry">Let’s talk</a>
+            </article>
+          </div>
+          <p class="plans-note">Not sure which fits? Tell us what you’re working on and we’ll tell you honestly.</p>
+        </div>
+      </section>
+
+      <section class="band warm" id="build">
+        <div class="wrap carve">
+          <div>
+            <p class="eyebrow ruled">How we build</p>
+            <h2>Made Like a Good Clog.</h2>
+            <p class="lede">A clog starts as a plain block of wood. It gets cut to rough shape, carved to fit one foot, and worn in until it feels like it was always yours. Good software comes together the same way.</p>
+            <ol class="carve-steps">
+              <li><span>01 · Rough cut</span><p>The basic shape comes first, so there’s something real to react to.</p></li>
+              <li><span>02 · Carved to fit</span><p>Then we shape it around how you actually work.</p></li>
+              <li><span>03 · Worn in</span><p>Real use shows what needs smoothing, and we keep going until it feels right.</p></li>
+            </ol>
+          </div>
+          <img class="carve-mark" src="/company-mark.png" alt="" />
+        </div>
+      </section>
+
+      <section class="band dark" id="contact">
+        <div class="wrap contact">
+          <div>
+            <p class="eyebrow ruled">Let’s talk</p>
+            <h2>Have a Question or a Project in Mind?</h2>
+            <p class="lede">Tell us what you’re working on. We read every message.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button invert" href="mailto:dev@hekmantechnology.com?subject=Consulting%20inquiry">Start the conversation</a>
+            <a class="contact-mail" href="mailto:dev@hekmantechnology.com">dev@hekmantechnology.com</a>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="brand footer-brand" href="/">
-        <img class="brand-mark" src="/company-mark.png" alt="" />
-        <span>Hekman Technology Consulting LLC</span>
-      </a>
-      <nav aria-label="Legal and contact links">
-        <a href="/privacy">Privacy policy</a>
-        <a href="/terms">Terms of use</a>
-        <a href="mailto:support@hekmantechnology.com">Support</a>
-      </nav>
-      <small>© <span id="year">2026</span> Hekman Technology Consulting LLC</small>
+      <div class="wrap footer-inner">
+        <a class="brand" href="#top">
+          <img class="brand-mark" src="/company-mark.png" alt="" />
+          <span class="brand-rule" aria-hidden="true"></span>
+          <span class="brand-name">Hekman Technology Consulting LLC</span>
+        </a>
+        <nav aria-label="Legal and contact links">
+          <a href="/privacy">Privacy policy</a>
+          <a href="/terms">Terms of use</a>
+          <a href="mailto:support@hekmantechnology.com">Support</a>
+        </nav>
+        <small>© <span id="year">2026</span> Hekman Technology Consulting LLC</small>
+      </div>
     </footer>
   </body>
 </html>
-
