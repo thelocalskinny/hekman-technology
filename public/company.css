@@ -192,34 +192,10 @@ h3 { font-size: 1.2rem; font-weight: 700; line-height: 1.25; letter-spacing: -.0
 .contrast .contrast-hot p:not(.tag) { color: var(--dark-text); }
 .contrast-close { margin-top: 32px; font-size: 1.3rem; font-weight: 700; letter-spacing: -.01em; }
 
-/* Who */
-.who { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 6vw, 80px); align-items: start; }
-.person { padding: 30px; }
-.person-photo { display: grid; width: 96px; height: 96px; margin-bottom: 18px; place-items: center; background: var(--warm); }
-.person-photo img { width: 80px; height: 80px; object-fit: contain; }
-.person h3 { font-size: 1.45rem; }
-.person .tag { margin-top: 6px; color: var(--accent); }
-.person p:last-child { margin-top: 12px; color: var(--body); font-size: 1rem; }
-
-/* Placeholders: every one of these must be replaced before launch */
-.placeholder { position: relative; border: 2px dashed var(--accent); }
-.placeholder::before {
-  content: attr(data-note);
-  position: absolute;
-  top: -12px;
-  left: 18px;
-  padding: 2px 10px;
-  background: var(--accent);
-  color: #fff;
-  font-size: .66rem;
-  font-weight: 700;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-}
-
 /* Engage */
 .plans { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 56px; }
-.plan { display: flex; flex-direction: column; align-items: flex-start; padding: 36px; }
+.plan { display: flex; flex-direction: column; align-items: flex-start; padding: 36px; border: 1px solid var(--line); }
+.plan:first-child { box-shadow: inset 0 3px 0 var(--accent); }
 .plan h3 { font-size: 1.7rem; font-weight: 800; letter-spacing: -.025em; }
 .plan-sub { margin-top: 8px; color: var(--body); }
 .plan ul { align-self: stretch; flex: 1; margin-block: 24px 30px; padding-top: 10px; border-top: 1px solid var(--line); }
@@ -277,7 +253,7 @@ h3 { font-size: 1.2rem; font-weight: 700; line-height: 1.25; letter-spacing: -.0
   .brand-mark { width: 58px; height: 36px; }
   .button.small { min-height: 38px; padding: 0 12px; font-size: .62rem; letter-spacing: .1em; }
   .hero { grid-template-columns: 1fr; min-height: 0; padding-block: 44px; }
-  .pillars, .before-after, .contrast, .who, .plans, .carve, .contact, .case, .feature-grid { grid-template-columns: minmax(0, 1fr); }
+  .pillars, .before-after, .contrast, .plans, .carve, .contact, .case, .feature-grid { grid-template-columns: minmax(0, 1fr); }
   .case-image { max-width: 320px; }
   .steps li { grid-template-columns: 1fr; gap: 10px; }
   .carve-mark { max-width: 220px; }
